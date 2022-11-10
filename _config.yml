@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "David Basanta"
   avatar           : "profile.png"
-  bio              : "Associate Member/Professor"
+  bio              : "Associate Member/Associate Professor"
   location         : "Tampa"
   employer         : "H. Lee Moffitt Cancer Center"
   googlescholar    : "https://scholar.google.com/citations?user=CgyEREgAAAAJ&hl=en"
@@ -91,7 +91,7 @@ author:
   orcid            : "https://orcid.org/0000-0002-8527-0776"
   twitter          : "dbasanta"
   youtube          : "https://www.youtube.com/channel/UCGcNdutQNEi6P6fIKatcy3w/featured"
-  wikipedia        :
+  mastodon         : "https://fediscience.org/@david"
 
 
 # Reading Files
