@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal homepage. My name is David [Basanta](https://fediscience.org/@david) Gutierrez and I am a Professor at the [Integrated Mathematical Oncology department](https://moffitt.org/research-science/divisions-and-departments/quantitative-science/integrated-mathematical-oncology). I have a courtesy [affiliation](https://moffitt.org/research-science/researchers/david-basanta-gutierrez/) with the Genitourinary department also at Moffitt and the department of [Oncologic Sciences at the University of South Florida](http://cancerbiology.usf.edu/). [My group and I](https://cancerevo.org/) work trying to understand cancer ecology and evolution through mathematical models and collaborations with experimental cancer biologists.  
+Welcome to my personal homepage. My name is David [Basanta](https://fediscience.org/@david) Gutierrez and I am a senior member at the [Integrated Mathematical Oncology department](https://moffitt.org/research-science/divisions-and-departments/quantitative-science/integrated-mathematical-oncology). I also have an [affiliation](https://moffitt.org/research-science/researchers/david-basanta-gutierrez/) with the Genitourinary department also at Moffitt and  as full professor at the departments of [Oncologic Sciences at the University of South Florida](http://cancerbiology.usf.edu/) and cell biology, microbiology and molecular biology at the University of South Florida. [My group and I](https://cancerevo.org/) work trying to understand cancer ecology and evolution through mathematical models and collaborations with experimental cancer biologists.  
 
 
 Cancer Ecology & Evolution
