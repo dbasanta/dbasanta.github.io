@@ -1,0 +1,58 @@
+---
+layout: default
+title: Home
+---
+
+# David Basanta Gutierrez
+
+## Senior Member/Professor
+**Integrated Mathematical Oncology**
+Moffitt Cancer Center, Tampa, Florida
+
+Full Professor, University of South Florida
+Departments of Oncologic Sciences and Molecular Biosciences
+Affiliated with Genitourinary Department, Moffitt
+
+---
+
+## About
+
+I lead a research group investigating **cancer ecology and evolution through mathematical models** and collaborations with experimental cancer biologists. Our work focuses on understanding how advanced tumors develop resistance to treatments through somatic evolutionary processes, examining heterogeneity and natural selection within the cancer ecosystem.
+
+## Research Focus
+
+My research centers on understanding the evolutionary dynamics of cancer, particularly:
+
+- How tumors develop treatment resistance through evolutionary processes
+- Heterogeneity and natural selection within cancer ecosystems
+- Mathematical modeling of cancer evolution and ecology
+- Integration of computational and experimental approaches
+
+## Collaborations
+
+I work with leading cancer biologists including:
+
+- **Conor Lynch** - studying bone tumors
+- **Andriy Marusyk** - investigating lung and breast cancer evolution and treatment resistance
+
+## Science Communication
+
+I am passionate about science outreach and collaborate with **Scientists Inc**, a nonprofit organization focused on science communication. My involvement includes:
+
+- Participation in the **2Scientists podcast**
+- The **Taste of Science festival** across multiple US cities
+
+---
+
+## Contact
+
+**Email:** david [at] cancerevo [dot] org
+**Website:** [dbasanta.github.io](https://dbasanta.github.io)
+
+### Find me online
+- [Twitter](https://twitter.com/dbasanta)
+- [LinkedIn](https://www.linkedin.com/in/david-basanta)
+- [GitHub](https://github.com/dbasanta)
+- [Google Scholar](https://scholar.google.com)
+- [YouTube](https://www.youtube.com/@dbasanta)
+- [ORCID](https://orcid.org)

@@ -1,0 +1,37 @@
+# Site settings
+title: David Basanta
+description: Senior Member/Professor at Integrated Mathematical Oncology, Moffitt Cancer Center
+url: "https://dbasanta.github.io"
+baseurl: ""
+
+# Author information
+author:
+  name: David Basanta Gutierrez
+  email: david@cancerevo.org
+  position: Senior Member/Professor
+  institution: Moffitt Cancer Center
+  department: Integrated Mathematical Oncology
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Collections for team members
+collections:
+  team:
+    output: false
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research
+  - title: Team
+    url: /team
+  - title: Contact
+    url: /contact

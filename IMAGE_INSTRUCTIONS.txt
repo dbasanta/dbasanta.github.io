@@ -1,0 +1,18 @@
+TEAM PHOTO SETUP INSTRUCTIONS
+==============================
+
+Please copy your team photos to the following locations:
+
+1. Mark Froid (left photo - person at podium):
+   Copy to: assets/images/team/mark-froid.jpg
+
+2. Julia Pelesko (center photo - blonde woman):
+   Copy to: assets/images/team/julia-pelesko.jpg
+
+3. Tatiana Miti (right photo - woman with ID badge):
+   Copy to: assets/images/team/tatiana-miti.jpg
+
+The Jekyll server will automatically pick up these images once you copy them.
+You can use any image format (jpg, png, etc.) but make sure to match the filenames above.
+
+After copying the files, refresh your browser to see the photos on the Team page.
