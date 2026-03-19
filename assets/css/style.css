@@ -152,12 +152,25 @@ a:hover {
     margin-bottom: 2rem;
 }
 
+/* Moffitt Banner */
+.moffitt-banner {
+    background-color: #fff;
+    border-top: 3px solid #005eb8;
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.moffitt-logo {
+    height: 60px;
+    width: auto;
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
     color: white;
     padding: 2rem 0;
-    margin-top: 4rem;
 }
 
 footer .container {
