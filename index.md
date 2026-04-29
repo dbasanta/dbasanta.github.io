@@ -15,6 +15,11 @@ Affiliated with Genitourinary Department, Moffitt
 
 ---
 
+<div class="group-photo-wrap">
+  <img src="{{ '/assets/images/group-photo.jpg' | relative_url }}" alt="The CancerEvo Lab group" class="group-photo">
+  <p class="group-photo-caption">The CancerEvo Lab at Moffitt Cancer Center</p>
+</div>
+
 ## About
 
 I lead a research group investigating **cancer ecology and evolution through mathematical models** and collaborations with experimental cancer biologists. Our work focuses on understanding how advanced tumors develop resistance to treatments through somatic evolutionary processes, examining heterogeneity and natural selection within the cancer ecosystem.
