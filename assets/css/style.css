@@ -160,10 +160,8 @@ a:hover {
 
 .group-photo {
     width: 100%;
-    max-width: 800px;
-    height: 400px;
-    object-fit: cover;
-    object-position: center top;
+    max-width: 600px;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     display: block;
