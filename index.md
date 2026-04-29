@@ -37,15 +37,15 @@ My research centers on understanding the evolutionary dynamics of cancer, partic
 
 I work with leading cancer biologists including:
 
-- **Conor Lynch** - studying bone tumors
-- **Andriy Marusyk** - investigating lung and breast cancer evolution and treatment resistance
+- **[Conor Lynch](https://www.moffitt.org/research-science/researchers/conor-lynch/)** - studying bone tumors
+- **[Andriy Marusyk](https://labpages2.moffitt.org/marusyk)** - investigating lung and breast cancer evolution and treatment resistance
 
 ## Science Communication
 
-I am passionate about science outreach and collaborate with **Scientists Inc**, a nonprofit organization focused on science communication. My involvement includes:
+I am passionate about science outreach and collaborate with **[Scientists Inc](https://scientistsinc.org/)**, a nonprofit organization focused on science communication. My involvement includes:
 
-- Participation in the **2Scientists podcast**
-- The **Taste of Science festival** across multiple US cities
+- Participation in the **[2Scientists podcast](https://2scientists.org)**
+- The **[Taste of Science festival](https://tasteofscience.org)** across multiple US cities
 
 ---
 
