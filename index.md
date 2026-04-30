@@ -55,7 +55,7 @@ I am passionate about science outreach and collaborate with **[Scientists Inc](h
 **Website:** [dbasanta.github.io](https://dbasanta.github.io)
 
 ### Find me online
-- [Twitter](https://twitter.com/dbasanta)
+- [Bluesky](https://bsky.app/profile/cancerevo.org)
 - [LinkedIn](https://www.linkedin.com/in/david-basanta)
 - [GitHub](https://github.com/dbasanta)
 - [Google Scholar](https://scholar.google.com)
