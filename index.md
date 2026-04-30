@@ -55,9 +55,9 @@ I am passionate about science outreach and collaborate with **[Scientists Inc](h
 **Website:** [dbasanta.github.io](https://dbasanta.github.io)
 
 ### Find me online
-- [Bluesky](https://bsky.app/profile/cancerevo.org)
-- [LinkedIn](https://www.linkedin.com/in/david-basanta)
-- [GitHub](https://github.com/dbasanta)
-- [Google Scholar](https://scholar.google.com)
-- [YouTube](https://www.youtube.com/@dbasanta)
-- [ORCID](https://orcid.org)
+
+<div class="social-icons">
+  <a href="https://bsky.app/profile/cancerevo.org" target="_blank" rel="noopener" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+  <a href="https://scholar.google.com/citations?user=david+basanta" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  <a href="https://orcid.org" target="_blank" rel="noopener" title="ORCID"><i class="ai ai-orcid"></i></a>
+</div>

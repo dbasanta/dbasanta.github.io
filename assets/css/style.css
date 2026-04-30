@@ -152,6 +152,27 @@ a:hover {
     margin-bottom: 2rem;
 }
 
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.2s, transform 0.2s;
+    line-height: 1;
+}
+
+.social-icons a:hover {
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
 /* Group Photo */
 .group-photo-wrap {
     margin: 2rem 0;
