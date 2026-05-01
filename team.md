@@ -3,7 +3,7 @@ layout: default
 title: Team
 ---
 
-# CancerEvo Lab Team
+# CancerEvo Group Team
 
 Our interdisciplinary team combines mathematical modeling with experimental cancer biology to understand cancer evolution and ecology.
 
@@ -68,4 +68,4 @@ Our interdisciplinary team combines mathematical modeling with experimental canc
 
 ## Join Us
 
-Interested in joining the CancerEvo lab? We're always looking for motivated researchers passionate about cancer evolution and mathematical oncology. Contact [david@cancerevo.org](mailto:david@cancerevo.org) for more information.
+Interested in joining the CancerEvo Group? We're always looking for motivated researchers passionate about cancer evolution and mathematical oncology. Contact [david@cancerevo.org](mailto:david@cancerevo.org) for more information.

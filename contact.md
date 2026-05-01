@@ -44,4 +44,4 @@ I'm involved in the Taste of Science festival, bringing science to the public ac
 
 ## Prospective Students and Postdocs
 
-If you're interested in joining the CancerEvo lab, please visit our [Team page](/team) for more information about current opportunities, or email me directly with your CV and research interests.
+If you're interested in joining the CancerEvo Group, please visit our [Team page](/team) for more information about current opportunities, or email me directly with your CV and research interests.

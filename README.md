@@ -1,6 +1,6 @@
 # David Basanta - Personal Website
 
-A modern, fast-loading Jekyll website for the CancerEvo lab at Moffitt Cancer Center.
+A modern, fast-loading Jekyll website for the CancerEvo Group at Moffitt Cancer Center.
 
 ## Features
 

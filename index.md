@@ -4,11 +4,11 @@ title: Home
 ---
 
 <div class="group-photo-wrap">
-  <img src="{{ '/assets/images/group-photo.jpg' | relative_url }}" alt="The CancerEvo Lab group" class="group-photo">
-  <p class="group-photo-caption">The CancerEvo Lab at Moffitt Cancer Center</p>
+  <img src="{{ '/assets/images/group-photo.jpg' | relative_url }}" alt="The CancerEvo Group" class="group-photo">
+  <p class="group-photo-caption">The CancerEvo Group at Moffitt Cancer Center</p>
 </div>
 
-## Welcome to the CancerEvo Lab
+## Welcome to the CancerEvo Group
 
 We are a research group at the **Integrated Mathematical Oncology** department of [Moffitt Cancer Center](https://moffitt.org), Tampa, Florida. We study **cancer ecology and evolution** using mathematical models and close collaborations with experimental cancer biologists.
 
