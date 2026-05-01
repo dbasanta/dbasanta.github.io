@@ -20,19 +20,6 @@ Our interdisciplinary team combines mathematical modeling with experimental canc
 
 ---
 
-## Postdoctoral Fellows
-
-<div class="team-grid">
-    <div class="team-member">
-        <img src="/assets/images/team/normalized/riley-hall_normalized.jpg" alt="Riley Hall" class="team-photo">
-        <h3>Riley Hall, PhD</h3>
-        <p class="role">Postdoctoral Fellow</p>
-        <p>Research interests: Multiple myeloma and the role of ageing in the bone microenvironment during carcinogenesis and treatment</p>
-    </div>
-</div>
-
----
-
 ## Research Scientists
 
 <div class="team-grid">
@@ -41,6 +28,19 @@ Our interdisciplinary team combines mathematical modeling with experimental canc
         <h3>Tatiana Miti, PhD</h3>
         <p class="role">Research Scientist</p>
         <p>Research interests: Role of stromal protection and stromal dynamics during treatment, spatial statistics</p>
+    </div>
+</div>
+
+---
+
+## Postdoctoral Fellows
+
+<div class="team-grid">
+    <div class="team-member">
+        <img src="/assets/images/team/normalized/riley-hall_normalized.jpg" alt="Riley Hall" class="team-photo">
+        <h3>Riley Hall, PhD</h3>
+        <p class="role">Postdoctoral Fellow</p>
+        <p>Research interests: Multiple myeloma and the role of ageing in the bone microenvironment during carcinogenesis and treatment</p>
     </div>
 </div>
 
