@@ -14,8 +14,8 @@
     <polygon points="18,46 44,40 52,62 34,70 16,70" fill="#ffffff" opacity="0.17" stroke="#ffffff" stroke-width="0.5"></polygon>
     <polygon points="44,40 66,34 98,28 100,58 70,64 52,62" fill="#ffffff" opacity="0.13" stroke="#ffffff" stroke-width="0.5"></polygon>
     
-    <polygon points="70,64 100,58 108,88 78,98 66,84" fill="#5AADD6" opacity="0.32" stroke="#5AADD6" stroke-width="0.7"></polygon>
-    <polygon points="34,70 52,62 66,84 56,106 26,102 16,70" fill="#5AADD6" opacity="0.25" stroke="#5AADD6" stroke-width="0.7"></polygon>
+    <polygon points="70,64 100,58 108,88 78,98 66,84" fill="#ffffff" opacity="0.32" stroke="#ffffff" stroke-width="0.7"></polygon>
+    <polygon points="34,70 52,62 66,84 56,106 26,102 16,70" fill="#ffffff" opacity="0.25" stroke="#ffffff" stroke-width="0.7"></polygon>
   </g>
 
   
@@ -25,11 +25,11 @@
   <circle cx="26" cy="28" r="2.5" fill="#ffffff" opacity="0.72"></circle>
   <circle cx="54" cy="24" r="2" fill="#ffffff" opacity="0.62"></circle>
   <circle cx="34" cy="58" r="3" fill="#ffffff" opacity="0.68"></circle>
-  <circle cx="86" cy="74" r="5.5" fill="#5AADD6" opacity="0.90"></circle>
-  <circle cx="48" cy="86" r="4.5" fill="#5AADD6" opacity="0.82"></circle>
+  <circle cx="86" cy="74" r="5.5" fill="#ffffff" opacity="0.90"></circle>
+  <circle cx="48" cy="86" r="4.5" fill="#ffffff" opacity="0.82"></circle>
 
   
-  <rect x="128" y="18" width="3.5" height="80" fill="#5AADD6"></rect>
+  <rect x="128" y="18" width="3.5" height="80" fill="#ffffff"></rect>
 
   
   <text x="144" y="58" font-family="&#39;Space Grotesk&#39;, &#39;Helvetica Neue&#39;, Arial, sans-serif" font-weight="700" font-size="30" letter-spacing="-0.5" fill="#ffffff">CANCER</text>
@@ -38,5 +38,5 @@
   <line x1="144" y1="64" x2="352" y2="64" stroke="#ffffff" stroke-width="0.7" opacity="0.12"></line>
 
   
-  <text x="144" y="91" font-family="&#39;Space Grotesk&#39;, &#39;Helvetica Neue&#39;, Arial, sans-serif" font-weight="300" font-size="30" letter-spacing="6" fill="#5AADD6">EVO</text>
+  <text x="144" y="91" font-family="&#39;Space Grotesk&#39;, &#39;Helvetica Neue&#39;, Arial, sans-serif" font-weight="300" font-size="30" letter-spacing="6" fill="#ffffff">EVO</text>
 </svg>
