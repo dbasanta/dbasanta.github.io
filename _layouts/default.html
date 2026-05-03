@@ -6,13 +6,16 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
 <body>
     <nav>
         <div class="container">
-            <a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
+            <a href="{{ '/' | relative_url }}" class="logo">
+                <img src="{{ '/assets/images/cancerevo-logo-nav.svg' | relative_url }}" alt="CancerEvo" class="nav-logo">
+            </a>
             <ul>
                 {% for item in site.navigation %}
                 <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a></li>
