@@ -61,18 +61,12 @@ description: Meet the interdisciplinary CancerEvo research group at Moffitt Canc
         <p class="eyebrow">Alumni</p>
         <h2 id="alumni-heading">People who helped shape CancerEvo</h2>
       </div>
-      <p>Former doctoral researchers and postdoctoral scientists whose work contributed to the lab's development.</p>
+      <p>Former doctoral researchers, postdoctoral scientists, and research staff whose work contributed to the lab's development.</p>
     </div>
 
     <div class="alumni-group" aria-labelledby="doctoral-alumni">
       <p class="alumni-label" id="doctoral-alumni">Doctoral alumni</p>
       <div class="alumni-grid">
-        <article class="alumni-card">
-          <p class="role">DPhil · Oxford · 2020</p>
-          <h3><a href="https://kaznatcheev.github.io/">Artem Kaznatcheev</a></h3>
-          <p>Co-supervised doctoral researcher in evolutionary game theory; now Assistant Professor at Utrecht University.</p>
-        </article>
-
         <article class="alumni-card">
           <p class="role">DPhil · Oxford · 2017</p>
           <h3><a href="https://uk.linkedin.com/in/jptk">Jake Taylor-King</a></h3>
@@ -82,7 +76,7 @@ description: Meet the interdisciplinary CancerEvo research group at Moffitt Canc
         <article class="alumni-card">
           <p class="role">PhD · USF / Moffitt · 2025</p>
           <h3><a href="https://gosiaweh.com/">Gosia Weh</a></h3>
-          <p>Co-supervised with Andriy Marusyk; now a Postdoctoral Fellow in the Enderling Lab at MD Anderson Cancer Center.</p>
+          <p>Mentored by David Basanta; now a Postdoctoral Fellow in the Enderling Lab at MD Anderson Cancer Center.</p>
         </article>
       </div>
     </div>
@@ -111,7 +105,18 @@ description: Meet the interdisciplinary CancerEvo research group at Moffitt Canc
         <article class="alumni-card">
           <p class="role">Postdoctoral Fellow</p>
           <h3><a href="https://www.mskcc.org/research-areas/labs/members/ziv-frankenstein">Ziv Frankenstein</a></h3>
-          <p>Developed agent-based and data-driven models of stromal ecology in prostate cancer.</p>
+          <p>Co-supervised with <a href="https://labpages.moffitt.org/andersona/">Sandy Anderson</a>; developed agent-based and data-driven models of stromal ecology in prostate cancer.</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="alumni-group" aria-labelledby="research-alumni">
+      <p class="alumni-label" id="research-alumni">Research alumni</p>
+      <div class="alumni-grid">
+        <article class="alumni-card">
+          <p class="role">Research Assistant</p>
+          <h3><a href="https://kaznatcheev.github.io/">Artem Kaznatcheev</a></h3>
+          <p>Worked with CancerEvo on evolutionary game theory; now Assistant Professor at Utrecht University.</p>
         </article>
       </div>
     </div>
