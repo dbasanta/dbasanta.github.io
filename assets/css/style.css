@@ -544,6 +544,80 @@ li + li {
     font-size: 0.96rem;
 }
 
+.team-alumni {
+    padding: clamp(76px, 10vw, 132px) 0;
+    border-top: 1px solid rgba(8, 27, 44, 0.32);
+}
+
+.alumni-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+    gap: clamp(36px, 7vw, 96px);
+    align-items: end;
+}
+
+.alumni-intro > p {
+    max-width: 42ch;
+    margin: 0 0 6px;
+    color: var(--muted);
+}
+
+.alumni-group {
+    padding-top: clamp(46px, 6vw, 76px);
+}
+
+.alumni-group + .alumni-group {
+    margin-top: clamp(34px, 5vw, 64px);
+    border-top: 1px solid rgba(8, 27, 44, 0.18);
+}
+
+.alumni-label {
+    margin: 0 0 26px;
+    color: var(--navy-900);
+    font-size: 0.78rem;
+    font-weight: 850;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.alumni-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(34px, 5vw, 64px) 24px;
+}
+
+.alumni-card {
+    min-width: 0;
+    padding-top: 20px;
+    border-top: 3px solid var(--navy-900);
+}
+
+.alumni-card .role {
+    margin: 0 0 10px;
+    color: var(--blue-600);
+    font-size: 0.7rem;
+    font-weight: 850;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+.alumni-card h3 {
+    margin: 0 0 12px;
+    font-size: clamp(1.45rem, 2.2vw, 2rem);
+}
+
+.alumni-card h3 a {
+    color: inherit;
+    text-decoration-color: rgba(8, 127, 180, 0.4);
+}
+
+.alumni-card > p:last-child {
+    max-width: 40ch;
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.94rem;
+}
+
 .team-join {
     display: grid;
     grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
@@ -720,7 +794,8 @@ li + li {
     }
 
     .team-hero,
-    .team-join {
+    .team-join,
+    .alumni-intro {
         grid-template-columns: 1fr;
     }
 
@@ -734,6 +809,10 @@ li + li {
     }
 
     .people-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .alumni-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
@@ -838,6 +917,11 @@ li + li {
     .people-grid {
         grid-template-columns: 1fr;
         gap: 52px;
+    }
+
+    .alumni-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
     }
 
     .person-photo {
