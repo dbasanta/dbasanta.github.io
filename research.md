@@ -1,45 +1,54 @@
 ---
 layout: default
 title: Research
+description: CancerEvo research on tumor heterogeneity, evolutionary dynamics, mathematical modeling, and treatment resistance.
 ---
 
-# Research
+<div class="page-shell">
+  <header class="page-intro">
+    <p class="eyebrow">Research</p>
+    <h1>Understanding how cancer adapts—and how treatment can adapt in response.</h1>
+    <p class="lede">We study tumors as evolving ecosystems, using mathematical and computational models alongside experimental collaborators.</p>
+  </header>
 
-## Cancer Evolution and Ecology
+  <section class="section" aria-labelledby="research-areas">
+    <div class="section-heading">
+      <h2 id="research-areas">Core research areas</h2>
+    </div>
+    <div class="research-grid">
+      <article class="research-card" data-number="01">
+        <h3>Tumor heterogeneity</h3>
+        <p>Characterizing diversity within tumor populations and its consequences for progression and treatment response.</p>
+      </article>
+      <article class="research-card" data-number="02">
+        <h3>Evolutionary dynamics</h3>
+        <p>Examining how cancer cells adapt under selective pressures from therapy, immunity, and the microenvironment.</p>
+      </article>
+      <article class="research-card" data-number="03">
+        <h3>Mathematical modeling</h3>
+        <p>Building models that make biological assumptions explicit, generate testable hypotheses, and clarify mechanisms.</p>
+      </article>
+      <article class="research-card" data-number="04">
+        <h3>Treatment resistance</h3>
+        <p>Investigating evolutionary routes to resistance and strategies designed to constrain or delay them.</p>
+      </article>
+      <article class="research-card" data-number="05">
+        <h3>Bone microenvironment</h3>
+        <p>Studying ecological and evolutionary interactions between tumors, treatment, and the bone microenvironment.</p>
+      </article>
+      <article class="research-card" data-number="06">
+        <h3>Lung and breast cancer</h3>
+        <p>Working with experimental collaborators to study evolution and treatment response in disease-specific systems.</p>
+      </article>
+    </div>
+  </section>
 
-Our research group investigates cancer ecology and evolution through mathematical models and collaborations with experimental cancer biologists. We focus on understanding how advanced tumors develop resistance to treatments through somatic evolutionary processes.
-
-## Key Research Areas
-
-### Tumor Heterogeneity
-We study the diversity within tumor populations and how this heterogeneity contributes to treatment resistance and disease progression.
-
-### Evolutionary Dynamics
-Our work examines natural selection within the cancer ecosystem, modeling how cancer cells adapt and evolve in response to selective pressures such as therapy and immune response.
-
-### Mathematical Modeling
-We develop and apply mathematical and computational models to understand cancer progression, predict treatment outcomes, and identify new therapeutic strategies.
-
-### Treatment Resistance
-A major focus is understanding the mechanisms by which tumors develop resistance to treatments, with the goal of developing evolution-informed therapeutic approaches.
-
-## Collaborative Research
-
-### Bone Tumors
-In collaboration with **Conor Lynch**, we investigate the evolutionary dynamics of bone tumors and their microenvironment.
-
-### Lung and Breast Cancer
-Working with **Andriy Marusyk**, we study the evolution of lung and breast cancers, particularly focusing on treatment resistance mechanisms.
-
-## Approach
-
-Our research integrates:
-- Mathematical and computational modeling
-- Evolutionary biology principles
-- Ecological theory
-- Experimental validation through collaborations
-- Clinical relevance and translational potential
-
-## Publications
-
-For a complete list of publications, please visit my [Google Scholar profile](https://scholar.google.com).
+  <section class="statement">
+    <p class="eyebrow">Method</p>
+    <div>
+      <blockquote>We use models to connect mechanisms across scales—from cell interactions to population dynamics and treatment outcomes.</blockquote>
+      <p class="spaced-link">Our work integrates mathematical and computational modeling, evolutionary and ecological theory, experimental validation, and questions with clinical relevance.</p>
+      <p><a class="text-link" href="https://scholar.google.com/citations?user=CgyEREgAAAAJ&amp;hl=en">View publications on Google Scholar →</a></p>
+    </div>
+  </section>
+</div>

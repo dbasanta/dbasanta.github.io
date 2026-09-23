@@ -1,44 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#081b2c">
+    {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
-<body>
-    <nav>
-        <div class="container">
-            <a href="{{ '/' | relative_url }}" class="logo">
-                <img src="{{ '/assets/images/cancerevo-logo-nav.svg' | relative_url }}" alt="CancerEvo" class="nav-logo">
+<body class="page-{{ page.title | slugify }}">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <nav class="container nav-shell" aria-label="Primary navigation">
+            <a href="{{ '/' | relative_url }}" class="logo" aria-label="CancerEvo home">
+                <img src="{{ '/assets/images/cancerevo-logo-nav.svg' | relative_url }}" alt="CancerEvo" class="nav-logo" width="400" height="120">
             </a>
-            <ul>
+            <ul class="nav-links">
                 {% for item in site.navigation %}
-                <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a></li>
+                {% assign item_url_slash = item.url | append: '/' %}
+                <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url or page.url == item_url_slash %}class="active" aria-current="page"{% endif %}>{{ item.title }}</a></li>
                 {% endfor %}
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <main class="container">
+    <main id="main-content" class="site-main">
         {{ content }}
     </main>
 
-    <div class="moffitt-banner">
-        <div class="container">
-            <a href="https://moffitt.org" target="_blank" rel="noopener">
-                <img src="{{ '/assets/images/moffitt-logo.png' | relative_url }}" alt="Moffitt Cancer Center" class="moffitt-logo">
+    <aside class="institution-band" aria-label="Institutional affiliation">
+        <div class="container institution-inner">
+            <p>Based in the Integrated Mathematical Oncology department</p>
+            <a href="https://moffitt.org" target="_blank" rel="noopener noreferrer" aria-label="Visit Moffitt Cancer Center">
+                <img src="{{ '/assets/images/moffitt-logo.png' | relative_url }}" alt="Moffitt Cancer Center" class="moffitt-logo" width="262" height="74">
             </a>
         </div>
-    </div>
+    </aside>
 
-    <footer>
-        <div class="container">
-            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <p class="footer-title">CancerEvo</p>
+                <p>Mathematical models for evolution-informed cancer treatment.</p>
+            </div>
+            <div class="footer-links" aria-label="Footer links">
+                <a href="mailto:{{ site.author.email }}">Email</a>
+                <a href="https://scholar.google.com/citations?user=CgyEREgAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                <a href="https://orcid.org/0000-0002-8527-0776" target="_blank" rel="noopener noreferrer">ORCID</a>
+                <a href="https://github.com/dbasanta" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}.</p>
         </div>
     </footer>
 </body>

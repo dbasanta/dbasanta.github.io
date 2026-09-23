@@ -1,57 +1,41 @@
 ---
 layout: default
 title: About
+description: About David Basanta Gutierrez and the CancerEvo Group at Moffitt Cancer Center.
 ---
 
-# David Basanta Gutierrez
+<div class="page-shell">
+  <header class="page-intro">
+    <p class="eyebrow">About CancerEvo</p>
+    <h1>Connecting evolutionary theory, mathematical models, and cancer biology.</h1>
+    <p class="lede">David Basanta Gutierrez leads the CancerEvo Group within Integrated Mathematical Oncology at Moffitt Cancer Center in Tampa, Florida.</p>
+  </header>
 
-## Senior Member/Professor
-**Integrated Mathematical Oncology**
-Moffitt Cancer Center, Tampa, Florida
+  <div class="content-grid">
+    <article>
+      <h2>About David Basanta Gutierrez</h2>
+      <p>David is a Senior Member at Moffitt Cancer Center and a Professor at the University of South Florida. His research group investigates cancer ecology and evolution through mathematical modeling and close collaborations with experimental cancer biologists.</p>
 
-Full Professor, University of South Florida
-Departments of Oncologic Sciences and Molecular Biosciences
-Affiliated with Genitourinary Department, Moffitt
+      <h2>Research perspective</h2>
+      <p>Advanced cancers are heterogeneous. Their response to treatment is shaped by somatic evolution, interactions within the tumor ecosystem, and the selection imposed by therapy. The group develops mathematical and computational models to clarify these dynamics and to identify treatment strategies that may be more robust to evolutionary escape.</p>
 
----
+      <h2>Collaborative science</h2>
+      <p>The group works with experimental cancer biologists, including <a href="https://www.moffitt.org/research-science/researchers/conor-lynch/">Conor Lynch</a> on tumors in bone and <a href="https://labpages2.moffitt.org/marusyk">Andriy Marusyk</a> on evolution and treatment in lung and breast cancer.</p>
 
-## About
+      <h2>Science communication</h2>
+      <p>David also works with <a href="https://scientistsinc.org/">Scientists Inc</a>, a nonprofit focused on science communication and outreach, through initiatives including the <a href="https://2scientists.org/">2Scientists podcast</a> and the <a href="https://tasteofscience.org/">Taste of Science</a> festival.</p>
+    </article>
 
-I lead a research group investigating **cancer ecology and evolution through mathematical models** and collaborations with experimental cancer biologists. Our work focuses on understanding how advanced tumors develop resistance to treatments through somatic evolutionary processes, examining heterogeneity and natural selection within the cancer ecosystem.
-
-## Research Focus
-
-My research centers on understanding the evolutionary dynamics of cancer, particularly:
-
-- How tumors develop treatment resistance through evolutionary processes
-- Heterogeneity and natural selection within cancer ecosystems
-- Mathematical modeling of cancer evolution and ecology
-- Integration of computational and experimental approaches
-
-## Collaborations
-
-I work with leading cancer biologists including:
-
-- **[Conor Lynch](https://www.moffitt.org/research-science/researchers/conor-lynch/)** - studying bone tumors
-- **[Andriy Marusyk](https://labpages2.moffitt.org/marusyk)** - investigating lung and breast cancer evolution and treatment resistance
-
-## Science Communication
-
-I am passionate about science outreach and collaborate with **[Scientists Inc](https://scientistsinc.org/)**, a nonprofit organization focused on science communication. My involvement includes:
-
-- Participation in the **[2Scientists podcast](https://2scientists.org)**
-- The **[Taste of Science festival](https://tasteofscience.org)** across multiple US cities
-
----
-
-## Contact
-
-**Email:** david [at] cancerevo [dot] org
-
-### Find me online
-
-<div class="social-icons">
-  <a href="https://bsky.app/profile/cancerevo.org" target="_blank" rel="noopener" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
-  <a href="https://scholar.google.com/citations?user=david+basanta" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-  <a href="https://orcid.org" target="_blank" rel="noopener" title="ORCID"><i class="ai ai-orcid"></i></a>
+    <aside class="side-note">
+      <h2>Appointments</h2>
+      <p><strong>Moffitt Cancer Center</strong><br>Senior Member<br>Integrated Mathematical Oncology</p>
+      <p><strong>University of South Florida</strong><br>Professor<br>Oncologic Sciences and Molecular Biosciences</p>
+      <h3>Profiles</h3>
+      <ul class="profile-list">
+        <li><a href="https://scholar.google.com/citations?user=CgyEREgAAAAJ&amp;hl=en">Google Scholar</a></li>
+        <li><a href="https://orcid.org/0000-0002-8527-0776">ORCID</a></li>
+        <li><a href="https://bsky.app/profile/cancerevo.org">Bluesky</a></li>
+      </ul>
+    </aside>
+  </div>
 </div>

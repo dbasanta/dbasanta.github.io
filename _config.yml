@@ -1,8 +1,9 @@
 # Site settings
 title: CancerEvo
-description: Senior Member/Professor at Integrated Mathematical Oncology, Moffitt Cancer Center
-url: "https://dbasanta.github.io"
+description: Mathematical modeling of cancer ecology, evolution, and treatment resistance at Moffitt Cancer Center.
+url: "https://cancerevo.org"
 baseurl: ""
+logo: /assets/images/favicon.svg
 
 # Author information
 author:
@@ -15,6 +16,17 @@ author:
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/og-cancerevo.png
+        width: 1200
+        height: 630
+        alt: CancerEvo — mathematical models for evolution-informed cancer treatment
 exclude:
   - Gemfile
   - Gemfile.lock
