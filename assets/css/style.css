@@ -120,6 +120,7 @@ summary:focus-visible {
 
 .nav-links > li {
     display: flex;
+    margin: 0;
 }
 
 .nav-links a {
