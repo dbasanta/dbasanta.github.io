@@ -21,7 +21,7 @@ description: Meet the interdisciplinary CancerEvo research group at Moffitt Canc
       <article class="person-card">
         <img src="{{ '/assets/images/team/normalized/david_normalized.jpg' | relative_url }}" alt="Portrait of David Basanta Gutierrez" class="person-photo" width="400" height="400">
         <p class="role">Principal Investigator</p>
-        <h3>David Basanta Gutierrez</h3>
+        <h3>David Basanta Gutierrez, PhD</h3>
         <p>Models how ecological and evolutionary processes shape cancer progression and treatment resistance.</p>
       </article>
 
@@ -64,72 +64,46 @@ description: Meet the interdisciplinary CancerEvo research group at Moffitt Canc
       <p>Former doctoral researchers, postdoctoral scientists, and research staff whose work contributed to the lab's development.</p>
     </div>
 
-    <div class="alumni-group" aria-labelledby="doctoral-alumni">
-      <p class="alumni-label" id="doctoral-alumni">Doctoral alumni</p>
-      <div class="alumni-grid">
-        <article class="alumni-card">
-          <p class="role">DPhil · Oxford · 2017</p>
-          <h3><a href="https://uk.linkedin.com/in/jptk">Jake Taylor-King</a></h3>
-          <p>Co-supervised doctoral researcher in networks and cancer ecosystems; now Co-founder and Chief Innovation Officer at Relation Therapeutics.</p>
-        </article>
+    <div class="alumni-directory" aria-label="CancerEvo alumni">
+      <article class="alumni-entry">
+        <h3><a href="https://uk.linkedin.com/in/jptk">Jake Taylor-King, DPhil</a></h3>
+        <p>Doctoral alumnus · DPhil, Oxford, 2017</p>
+      </article>
 
-        <article class="alumni-card">
-          <p class="role">PhD · USF / Moffitt · 2025</p>
-          <h3><a href="https://gosiaweh.com/">Gosia Weh</a></h3>
-          <p>Mentored by David Basanta; now a Postdoctoral Fellow in the Enderling Lab at MD Anderson Cancer Center.</p>
-        </article>
-      </div>
-    </div>
+      <article class="alumni-entry">
+        <h3><a href="https://gosiaweh.com/">Gosia Weh, PhD</a></h3>
+        <p>Doctoral alumna · mentored by David Basanta · 2025</p>
+      </article>
 
-    <div class="alumni-group" aria-labelledby="postdoctoral-alumni">
-      <p class="alumni-label" id="postdoctoral-alumni">Postdoctoral alumni</p>
-      <div class="alumni-grid">
-        <article class="alumni-card">
-          <p class="role">Postdoctoral Fellow · joined 2012</p>
-          <h3><a href="https://pure.roehampton.ac.uk/portal/en/persons/arturo-araujo/">Arturo Araujo</a></h3>
-          <p>Developed integrated models of prostate cancer bone metastasis; now Senior Lecturer in Computer Science at the University of Roehampton.</p>
-        </article>
+      <article class="alumni-entry">
+        <h3><a href="https://pure.roehampton.ac.uk/portal/en/persons/arturo-araujo/">Arturo Araujo, PhD</a></h3>
+        <p>Postdoctoral fellow · joined 2012</p>
+      </article>
 
-        <article class="alumni-card">
-          <p class="role">Postdoctoral Scientist · joined 2016</p>
-          <h3><a href="https://portal.research.lu.se/en/persons/etienne-baratchart/">Etienne Baratchart</a></h3>
-          <p>Worked on cancer–microenvironment models and macrophage dynamics; now a Postdoctoral Fellow at Lund University.</p>
-        </article>
+      <article class="alumni-entry">
+        <h3><a href="https://portal.research.lu.se/en/persons/etienne-baratchart/">Etienne Baratchart, PhD</a></h3>
+        <p>Postdoctoral scientist · joined 2016</p>
+      </article>
 
-        <article class="alumni-card">
-          <p class="role">Applied Postdoctoral Fellow · joined 2018</p>
-          <h3><a href="https://annakmil.github.io/">Anna K. Miller</a></h3>
-          <p>Studied mathematical oncology across HPV, multiple myeloma, dormancy, and the bone ecosystem.</p>
-        </article>
+      <article class="alumni-entry">
+        <h3><a href="https://annakmil.github.io/">Anna K. Miller, PhD</a></h3>
+        <p>Applied postdoctoral fellow · joined 2018</p>
+      </article>
 
-        <article class="alumni-card">
-          <p class="role">Postdoctoral Fellow</p>
-          <h3><a href="https://www.mskcc.org/research-areas/labs/members/ziv-frankenstein">Ziv Frankenstein</a></h3>
-          <p>Co-supervised with <a href="https://labpages.moffitt.org/andersona/">Sandy Anderson</a>; developed agent-based and data-driven models of stromal ecology in prostate cancer.</p>
-        </article>
-      </div>
-    </div>
+      <article class="alumni-entry">
+        <h3><a href="https://www.mskcc.org/research-areas/labs/members/ziv-frankenstein">Ziv Frankenstein, PhD</a></h3>
+        <p>Postdoctoral fellow · co-supervised with <a href="https://labpages.moffitt.org/andersona/">Sandy Anderson</a></p>
+      </article>
 
-    <div class="alumni-group" aria-labelledby="research-alumni">
-      <p class="alumni-label" id="research-alumni">Research alumni</p>
-      <div class="alumni-grid">
-        <article class="alumni-card">
-          <p class="role">Research Assistant</p>
-          <h3><a href="https://kaznatcheev.github.io/">Artem Kaznatcheev</a></h3>
-          <p>Worked with CancerEvo on evolutionary game theory; now Assistant Professor at Utrecht University.</p>
-        </article>
-      </div>
-    </div>
+      <article class="alumni-entry">
+        <h3><a href="https://kaznatcheev.github.io/">Artem Kaznatcheev, DPhil</a></h3>
+        <p>Research assistant</p>
+      </article>
 
-    <div class="alumni-group alumni-associated" aria-labelledby="visiting-alumni">
-      <p class="alumni-label" id="visiting-alumni">Visiting doctoral researcher</p>
-      <div class="alumni-grid">
-        <article class="alumni-card">
-          <p class="role">Visiting PhD Student · University of Turin</p>
-          <h3>Niccolò Totis</h3>
-          <p>Worked with CancerEvo on agent-based models of metabolic heterogeneity in cancer.</p>
-        </article>
-      </div>
+      <article class="alumni-entry">
+        <h3>Niccolò Totis, MD</h3>
+        <p>Visiting doctoral researcher · University of Turin</p>
+      </article>
     </div>
   </section>
 

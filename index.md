@@ -16,7 +16,9 @@ description: The CancerEvo Group uses mathematical models and experimental colla
       </div>
     </div>
     <figure class="hero-photo">
-      <img src="{{ '/assets/images/group-photo.jpg' | relative_url }}" alt="Members of the CancerEvo Group together at Moffitt Cancer Center" width="4000" height="3000">
+      <div class="hero-photo-frame">
+        <img src="{{ '/assets/images/group-photo.jpg' | relative_url }}" alt="Members of the CancerEvo Group together at Moffitt Cancer Center" width="4000" height="3000">
+      </div>
       <figcaption>The CancerEvo Group at Moffitt Cancer Center</figcaption>
     </figure>
   </div>
