@@ -1,15 +1,15 @@
 ---
 layout: default
 title: Home
-description: The CancerEvo Group uses mathematical models and experimental collaborations to study cancer evolution and treatment resistance.
+description: The CancerEvo Group develops mathematical and computational models of cancer ecology, evolution, treatment response, and resistance.
 ---
 
 <section class="hero">
   <div class="hero-grid">
     <div>
-      <p class="eyebrow">Cancer ecology · evolution · therapy</p>
-      <h1>Evolution shapes cancer. We use it to rethink treatment.</h1>
-      <p class="lede">The CancerEvo Group combines mathematical modeling with experimental cancer biology to understand treatment resistance and help design more durable therapies.</p>
+      <p class="eyebrow">Integrated mathematical oncology</p>
+      <h1>Mathematical models of cancer ecology and evolution</h1>
+      <p class="lede">We develop theory and computational models in collaboration with experimental and clinical researchers to study tumor heterogeneity, treatment response, and resistance.</p>
       <div class="hero-actions">
         <a class="button" href="{{ '/research' | relative_url }}">Explore our research</a>
         <a class="button secondary" href="{{ '/team' | relative_url }}">Meet the team</a>
@@ -27,22 +27,22 @@ description: The CancerEvo Group uses mathematical models and experimental colla
 <section class="section tinted">
   <div class="container">
     <div class="section-heading">
-      <p class="eyebrow">What we investigate</p>
-      <h2>Cancer as an evolving ecosystem</h2>
-      <p class="lede">Tumors are heterogeneous populations under selection. Treatment changes that selection—and the evolutionary paths available to cancer cells.</p>
+      <p class="eyebrow">Research approach</p>
+      <h2>Theory, biological context, and collaboration</h2>
+      <p class="lede">Our work combines mathematical methods, ecological and evolutionary thinking, and sustained interaction with experimental and clinical researchers.</p>
     </div>
     <div class="pillar-grid">
       <article class="pillar-card" data-number="01">
-        <h3>Tumor heterogeneity</h3>
-        <p>We study how diversity within tumors influences progression, adaptation, and response to therapy.</p>
+        <h3>Mathematical modeling</h3>
+        <p>We use models to formalize biological hypotheses, identify important mechanisms, and generate predictions that can be tested against experimental and clinical data.</p>
       </article>
       <article class="pillar-card" data-number="02">
-        <h3>Evolutionary dynamics</h3>
-        <p>We model how cancer cell populations respond to treatment and to their ecological context.</p>
+        <h3>Cancer ecology and evolution</h3>
+        <p>We study how interactions among cancer cells, normal cells, the microenvironment, and treatment shape tumor dynamics and selection.</p>
       </article>
       <article class="pillar-card" data-number="03">
-        <h3>Treatment resistance</h3>
-        <p>We seek evolution-informed strategies that anticipate resistance rather than only reacting to it.</p>
+        <h3>Collaborative research</h3>
+        <p>We develop research questions and models in close interaction with experimental biologists and clinical investigators.</p>
       </article>
     </div>
   </div>
