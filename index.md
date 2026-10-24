@@ -17,7 +17,7 @@ description: The CancerEvo Group develops mathematical and computational models 
     </div>
     <figure class="hero-photo">
       <div class="hero-photo-frame">
-        <img src="{{ '/assets/images/group-photo.jpg' | relative_url }}" alt="Members of the CancerEvo Group together at Moffitt Cancer Center" width="4000" height="3000">
+        <img src="{{ '/assets/images/group-photo-1000.jpg' | relative_url }}" srcset="{{ '/assets/images/group-photo-1000.jpg' | relative_url }} 1x, {{ '/assets/images/group-photo-2000.jpg' | relative_url }} 2x" alt="Members of the CancerEvo Group together at Moffitt Cancer Center" width="4000" height="3000">
       </div>
       <figcaption>The CancerEvo Group at Moffitt Cancer Center</figcaption>
     </figure>
