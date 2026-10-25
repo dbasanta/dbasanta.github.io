@@ -23,7 +23,7 @@ defaults:
       path: ""
     values:
       image:
-        path: /assets/images/og-cancerevo.png
+        path: /assets/images/og-cancerevo.jpg
         width: 1200
         height: 630
         alt: CancerEvo — mathematical models for evolution-informed cancer treatment
