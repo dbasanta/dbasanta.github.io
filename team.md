@@ -19,35 +19,35 @@ description: Meet the interdisciplinary CancerEvo research group at Moffitt Canc
 
     <div class="people-grid" aria-label="CancerEvo team members">
       <article class="person-card">
-        <img src="{{ '/assets/images/team/normalized/david_normalized.jpg' | relative_url }}" alt="Portrait of David Basanta Gutierrez" class="person-photo" width="400" height="400">
+        <img src="{{ '/assets/images/team/normalized/david_normalized.jpg' | relative_url }}" srcset="{{ '/assets/images/team/normalized/david_normalized.jpg' | relative_url }} 1x, {{ '/assets/images/team/normalized/david_normalized_large.jpg' | relative_url }} 2x" alt="Portrait of David Basanta Gutierrez" class="person-photo" width="400" height="400">
         <p class="role">Principal Investigator</p>
         <h3>David Basanta Gutierrez, PhD</h3>
         <p>Models how ecological and evolutionary processes shape cancer progression and treatment resistance.</p>
       </article>
 
       <article class="person-card">
-        <img src="{{ '/assets/images/team/normalized/tatiana-miti_normalized.jpg' | relative_url }}" alt="Portrait of Tatiana Miti" class="person-photo" width="400" height="400">
+        <img src="{{ '/assets/images/team/normalized/tatiana-miti_normalized.jpg' | relative_url }}" srcset="{{ '/assets/images/team/normalized/tatiana-miti_normalized.jpg' | relative_url }} 1x, {{ '/assets/images/team/normalized/tatiana-miti_normalized_large.jpg' | relative_url }} 2x" alt="Portrait of Tatiana Miti" class="person-photo" width="400" height="400">
         <p class="role">Research Scientist</p>
         <h3>Tatiana Miti, PhD</h3>
         <p>Studies stromal protection and dynamics during treatment, with an emphasis on spatial statistics.</p>
       </article>
 
       <article class="person-card">
-        <img src="{{ '/assets/images/team/normalized/riley-hall_normalized.jpg' | relative_url }}" alt="Portrait of Riley Hall" class="person-photo" width="400" height="400">
+        <img src="{{ '/assets/images/team/normalized/riley-hall_normalized.jpg' | relative_url }}" srcset="{{ '/assets/images/team/normalized/riley-hall_normalized.jpg' | relative_url }} 1x, {{ '/assets/images/team/normalized/riley-hall_normalized_large.jpg' | relative_url }} 2x" alt="Portrait of Riley Hall" class="person-photo" width="400" height="400">
         <p class="role">Postdoctoral Fellow</p>
         <h3>Riley Hall, PhD</h3>
         <p>Studies multiple myeloma and how aging changes the bone microenvironment during carcinogenesis and treatment.</p>
       </article>
 
       <article class="person-card">
-        <img src="{{ '/assets/images/team/normalized/mark-froid_normalized.jpg' | relative_url }}" alt="Portrait of Mark Froid" class="person-photo" width="400" height="400">
+        <img src="{{ '/assets/images/team/normalized/mark-froid_normalized.jpg' | relative_url }}" srcset="{{ '/assets/images/team/normalized/mark-froid_normalized.jpg' | relative_url }} 1x, {{ '/assets/images/team/normalized/mark-froid_normalized_large.jpg' | relative_url }} 1.47x" alt="Portrait of Mark Froid" class="person-photo" width="400" height="400">
         <p class="role">PhD Student</p>
         <h3>Mark Froid</h3>
         <p>Models multiple myeloma, the immune system, and response to teclistamab treatment.</p>
       </article>
 
       <article class="person-card">
-        <img src="{{ '/assets/images/team/normalized/julia-pelesko_normalized.jpg' | relative_url }}" alt="Portrait of Julia Pelesko" class="person-photo" width="400" height="400">
+        <img src="{{ '/assets/images/team/normalized/julia-pelesko_normalized.jpg' | relative_url }}" srcset="{{ '/assets/images/team/normalized/julia-pelesko_normalized.jpg' | relative_url }} 1x, {{ '/assets/images/team/normalized/julia-pelesko_normalized_large.jpg' | relative_url }} 2x" alt="Portrait of Julia Pelesko" class="person-photo" width="400" height="400">
         <p class="role">PhD Student</p>
         <h3>Julia Pelesko</h3>
         <p>Develops pharmacokinetic models for individualized chemotherapy dosing.</p>
