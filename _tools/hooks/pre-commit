@@ -1,0 +1,25 @@
+#!/bin/sh
+# Refuse commits that add photos still carrying metadata (GPS location, camera details).
+# Enable once per clone:   git config core.hooksPath _tools/hooks
+
+root=$(git rev-parse --show-toplevel)
+images=$(git diff --cached --name-only --diff-filter=ACM | grep -iE '\.(jpe?g|png)$')
+[ -z "$images" ] && exit 0
+
+if ! python3 -c "import PIL" 2>/dev/null; then
+    echo "pre-commit: Pillow is not installed (pip install pillow); image metadata NOT checked." >&2
+    exit 0
+fi
+
+# Check the staged version of each file, not the working copy.
+tmp=$(mktemp -d); trap 'rm -rf "$tmp"' EXIT
+IFS='
+'
+for f in $images; do
+    mkdir -p "$tmp/$(dirname "$f")"
+    git show ":$f" > "$tmp/$f"
+done
+if ! (cd "$tmp" && python3 "$root/_tools/image_metadata.py" --check $images); then
+    printf '\nCommit refused: strip the metadata (command above), then git add the files again.\n' >&2
+    exit 1
+fi

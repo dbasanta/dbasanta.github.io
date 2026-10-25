@@ -34,6 +34,18 @@ Edit the `team.md` file to add your postdocs and PhD students information:
 - Add their email addresses
 - Optionally add photos by placing them in `assets/images/` and referencing them in the team member sections
 
+### Adding Photos
+
+Phone photos record where they were taken (GPS) and the camera used. Strip that before committing:
+```bash
+python3 _tools/image_metadata.py assets/images/team/new-photo.jpg
+```
+To have git refuse commits of photos that still carry metadata, run once in your clone (needs `pip install pillow`):
+```bash
+git config core.hooksPath _tools/hooks
+```
+Size photos for how they are displayed: team portraits are 400×400 px plus an 800×800 `_large` version for high-density screens (see `team.md`); the homepage photo has 1000 px and 2000 px versions.
+
 ### Add Publications
 
 You can create a new `publications.md` page or add publications to the `research.md` page.

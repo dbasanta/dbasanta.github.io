@@ -1,0 +1,20 @@
+name: Image metadata check
+
+# Safety net: fails (and GitHub emails you) if any published image carries GPS or other metadata.
+# It cannot un-publish a file; the pre-commit hook in _tools/hooks is what stops it before pushing.
+on:
+  push:
+    paths: ["**.jpg", "**.jpeg", "**.png", "_tools/image_metadata.py"]
+  pull_request:
+    paths: ["**.jpg", "**.jpeg", "**.png", "_tools/image_metadata.py"]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - run: python3 _tools/image_metadata.py --check $(git ls-files '*.jpg' '*.jpeg' '*.png' '*.JPG' '*.JPEG' '*.PNG')
