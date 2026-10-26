@@ -46,9 +46,16 @@ git config core.hooksPath _tools/hooks
 ```
 Size photos for how they are displayed: team portraits are 400×400 px plus an 800×800 `_large` version for high-density screens (see `team.md`); the homepage photo has 1000 px and 2000 px versions.
 
-### Add Publications
+### Publications
 
-You can create a new `publications.md` page or add publications to the `research.md` page.
+The Publications page is generated from `_data/publications.yml`, newest first. Each entry has:
+- `title`, `authors` (comma-separated, as "Family Initials"), `venue`, `details`, `year`, `date` (for ordering within a year) and `doi`
+- `group_authors`: the authors to show in bold (current and former CancerEvo members, written exactly as in `authors`)
+- `summary`: one or two sentences describing the paper
+- `theme`: `bone`, `stroma`, `selection` or `methods` (the tag linking to the Research page; leave it out if none fits)
+- optional `preprints` (`server`, `url`) and `blog_posts` (`site`, `title`, `url`)
+
+To add a paper, copy an existing entry and edit it. Only published papers are listed, not preprints.
 
 ### Styling
 

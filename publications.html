@@ -1,0 +1,60 @@
+---
+layout: default
+title: Publications
+description: Published papers, reviews and book chapters by David Basanta and the CancerEvo Group, each with a short summary and links to preprints and blog posts about the work.
+themes:
+  bone: { label: "Bone marrow ecosystem", url: "/research/#bone-marrow", c: "#D9483B", ink: "#B8362B" }
+  stroma: { label: "Stromal niches", url: "/research/#stromal-niches", c: "#B0418F", ink: "#B0418F" }
+  selection: { label: "Selection", url: "/research/#selection", c: "#E58A1F", ink: "#9E560A" }
+  methods: { label: "Methods", url: "/research/#methods-heading", c: "#2E9655", ink: "#23794A" }
+---
+{%- assign pubs = site.data.publications -%}
+{%- assign years = pubs | group_by: "year" -%}
+<div class="page-shell publications-page">
+  <header class="page-intro">
+    <p class="eyebrow">Publications</p>
+    <h1>Published work.</h1>
+    <p class="lede">{{ pubs.size }} peer-reviewed articles, reviews and book chapters, newest first, each with a short summary. Each title links to the published paper. Where we posted a preprint, it is linked alongside, and so is any blog post about the work. Names in bold are members of the group, past and present (see <a href="{{ '/team/' | relative_url }}">Team</a>); tags link to the matching theme on the <a href="{{ '/research/' | relative_url }}">Research</a> page.</p>
+  </header>
+
+  <nav class="year-index" aria-label="Jump to year">
+    {%- for y in years %}
+    <a href="#y{{ y.name }}">{{ y.name }}</a>
+    {%- endfor %}
+  </nav>
+
+  <div class="publication-years">
+    {%- for y in years %}
+    <section class="pub-year" id="y{{ y.name }}" aria-labelledby="y{{ y.name }}-heading">
+      <h2 class="publication-year" id="y{{ y.name }}-heading">{{ y.name }}</h2>
+      <ol class="pub-entries">
+        {%- for p in y.items %}
+        <li class="pub-entry">
+          <h3><a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a></h3>
+          {%- assign names = p.authors | split: ", " %}
+          <p class="pub-authors">{% for a in names %}{% if p.group_authors contains a %}<strong>{{ a | escape }}</strong>{% else %}<span>{{ a | escape }}</span>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+          <p class="pub-venue"><em>{{ p.venue | escape }}</em>{% if p.details != "" %} {{ p.details | escape }}{% endif %}{% if p.kind == "chapter" %}<span class="pub-kind">Book chapter</span>{% elsif p.kind == "proceedings" %}<span class="pub-kind">Conference paper</span>{% endif %}</p>
+          {%- if p.summary %}
+          <p class="pub-summary">{{ p.summary | escape }}</p>
+          {%- endif %}
+          <ul class="pub-links">
+            <li><a href="https://doi.org/{{ p.doi }}">Paper</a></li>
+            {%- for pp in p.preprints %}
+            <li><a href="{{ pp.url }}">Preprint <span class="pub-src">{{ pp.server }}</span></a></li>
+            {%- endfor %}
+            {%- for b in p.blog_posts %}
+            <li><a href="{{ b.url }}" title="{{ b.title | escape }}">Blog post <span class="pub-src">{{ b.site }}</span></a></li>
+            {%- endfor %}
+            {%- if p.theme %}{% assign t = page.themes[p.theme] %}
+            <li class="pub-theme"><a href="{{ t.url | relative_url }}" style="--c: {{ t.c }}; --c-ink: {{ t.ink }}">{{ t.label }}</a></li>
+            {%- endif %}
+          </ul>
+        </li>
+        {%- endfor %}
+      </ol>
+    </section>
+    {%- endfor %}
+  </div>
+
+  <p class="publication-footer">Preprints that have not yet appeared in a journal are not listed here. For those, and for citation counts, see <a href="https://orcid.org/0000-0002-8527-0776">ORCID</a> and <a href="https://scholar.google.com/citations?user=CgyEREgAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+</div>

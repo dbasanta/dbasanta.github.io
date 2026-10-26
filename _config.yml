@@ -6,6 +6,8 @@ baseurl: ""
 logo: /assets/images/favicon.svg
 
 # Author information
+moffitt_url: https://www.moffitt.org/
+imo_url: https://www.moffitt.org/research-science/divisions-and-departments/quantitative-science/integrated-mathematical-oncology/
 author:
   name: David Basanta Gutierrez
   email: david@cancerevo.org
@@ -39,14 +41,16 @@ collections:
     output: false
 
 # Navigation
-navigation:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
+navigation:   # same sections, same order, as the homepage tiles; the logo links home
   - title: Research
     url: /research
+  - title: Publications
+    url: /publications
   - title: Team
     url: /team
-  - title: Contact
-    url: /contact
+  - title: Models & Code
+    url: /models
+  - title: Outreach
+    url: /outreach
+  - title: About
+    url: /about

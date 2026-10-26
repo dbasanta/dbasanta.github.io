@@ -1,60 +1,105 @@
 ---
 layout: default
 title: Research
-description: CancerEvo develops mathematical models of tumor ecology, evolution, treatment response, and resistance in collaboration with experimental and clinical researchers.
+description: CancerEvo's work in cancer ecology and evolution follows three themes - cancer in the bone marrow ecosystem, stromal niches and residual disease, and selection in an evolving tumor ecosystem - with treatment as the thread through all three.
 ---
 
 <div class="page-shell research-page">
   <header class="page-intro research-intro">
     <p class="eyebrow">Research</p>
-    <h1>Mathematical models of how tumors interact, adapt, and respond to treatment.</h1>
-    <p class="lede">We study cancer as an ecological and evolutionary process. Our models are developed with experimental and clinical collaborators and are used to formalize biological hypotheses, interpret data, and identify mechanisms of treatment response and resistance.</p>
+    <h1>Cancer ecology, evolution and treatment.</h1>
+    <p class="lede">Tumors are ecosystems. Cancer cells compete and cooperate with one another and with the stromal, immune and bone cells around them, and treatment reshapes those interactions and the selection they impose. Over more than fifteen years, our work in cancer ecology and evolution has developed along three main themes: the bone marrow as an ecosystem in which cancers grow, relapse and resist therapy; stromal niches that shelter tumor cells from treatment; and the interactions that determine what selection favors as tumors evolve.</p>
+    <p class="lede">Treatment is not a separate theme but the thread that runs through all three. In each, we ask how therapy changes the ecology and evolution of the disease, and how that understanding can be used to treat it better.</p>
   </header>
 
-  <section class="research-overview" aria-labelledby="research-programmes">
+  <nav class="research-grid theme-overview" aria-label="Research themes">
+    <a class="research-card theme-card" href="#bone-marrow" data-number="01" style="--c: #D9483B; --c-ink: #B8362B">
+      {% include icons/bone-ecosystem.svg %}
+      <h3>Cancer in the bone marrow ecosystem</h3>
+      <p>How bone, stroma and immune cells shape the growth, relapse and resistance of cancers in bone.</p>
+    </a>
+    <a class="research-card theme-card" href="#stromal-niches" data-number="02" style="--c: #B0418F; --c-ink: #B0418F">
+      {% include icons/stromal-niche.svg %}
+      <h3>Stromal niches and residual disease</h3>
+      <p>How proximity to stroma lets tumor cells survive therapy and buys time for resistance to evolve.</p>
+    </a>
+    <a class="research-card theme-card" href="#selection" data-number="03" style="--c: #E58A1F; --c-ink: #9E560A">
+      {% include icons/cell-fusion.svg %}
+      <h3>Selection in an evolving ecosystem</h3>
+      <p>How interactions decide what selection favors, and where heritable variation comes from.</p>
+    </a>
+  </nav>
+
+  <section class="research-overview" aria-labelledby="research-themes">
     <div class="section-heading research-heading">
-      <p class="eyebrow">Research programs</p>
-      <h2 id="research-programmes">Questions that connect theory, experiments, and treatment</h2>
-      <p class="lede">Our work is organized around interactions among heterogeneous cancer populations, their local environments, and the selective pressures imposed by therapy.</p>
+      <p class="eyebrow">Research themes</p>
+      <h2 id="research-themes">Three questions about tumors as evolving ecosystems</h2>
     </div>
 
     <div class="research-programmes">
-      <article class="research-programme">
-        <p class="programme-number">01</p>
+      <article class="research-programme with-icon" id="bone-marrow" style="--c: #D9483B; --c-ink: #B8362B">
+        <div class="programme-mark">
+          {% include icons/bone-ecosystem.svg %}
+          <p class="programme-number">01</p>
+        </div>
         <div class="programme-copy">
-          <h3>Spatial microenvironments and residual disease</h3>
-          <p>Tumor behavior is shaped not only by cancer-cell-intrinsic properties but also by interactions with stromal, immune, and other neighboring cells. We study how these local interactions alter competition, selection, and treatment response.</p>
-          <p>Work in lung and prostate cancer examines spatially restricted protection from therapy, stromal contributions to residual disease, and the relationship between local ecology and the evolution of aggressive phenotypes.</p>
+          <h3>Cancer in the bone marrow ecosystem</h3>
+          <p>Bone is a living tissue, constantly remodeled by bone-resorbing osteoclasts and bone-forming osteoblasts and supported by mesenchymal stromal and immune cells. Cancers that grow in bone, such as multiple myeloma, leukemias and bone-metastatic prostate cancer, co-opt this ecosystem. Together with experimental collaborators over more than a decade, we have built spatial, hybrid models of bone and bone marrow to understand how tumors establish, how they disrupt bone homeostasis, and how the marrow environment shapes relapse and resistance.</p>
+          <p>Increasingly we model immune cells as well: whether a T cell finds, engages and kills a tumor cell depends on where cells are and how long they stay in contact.</p>
+          <p class="programme-treatment"><strong>Treatment.</strong> In myeloma, our model predicted that targeting environment-mediated drug resistance deepens responses by eliminating sensitive cells sheltered near stroma and bone, a prediction supported in vivo. We also use these models to optimize standard-of-care therapy in bone-metastatic prostate cancer and to rethink treatment-free intervals for T-cell engagers.</p>
         </div>
         <aside class="programme-evidence">
           <p class="eyebrow">Representative work</p>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/42215447/">Peristromal niches and targeted therapy response in lung cancer →</a>
+          <ul>
+            <li><a href="https://doi.org/10.1158/0008-5472.CAN-13-2652">A computational model of the bone microenvironment in bone-metastatic prostate cancer</a> <span>Cancer Research, 2014</span></li>
+            <li><a href="https://doi.org/10.1038/s41467-024-46594-0">The bone ecosystem and multiple myeloma relapse</a> <span>Nature Communications, 2024</span></li>
+            <li><a href="https://doi.org/10.1038/s41540-026-00675-6">Vascular niche-mediated TKI resistance in acute myeloid leukemia</a> <span>npj Systems Biology and Applications, 2026</span></li>
+            <li><a href="https://doi.org/10.1101/2025.11.17.688873">Treatment-free intervals in T-cell engager therapy</a> <span>bioRxiv preprint, 2025</span></li>
+          </ul>
         </aside>
       </article>
 
-      <article class="research-programme">
-        <p class="programme-number">02</p>
+      <article class="research-programme with-icon" id="stromal-niches" style="--c: #B0418F; --c-ink: #B0418F">
+        <div class="programme-mark">
+          {% include icons/stromal-niche.svg %}
+          <p class="programme-number">02</p>
+        </div>
         <div class="programme-copy">
-          <h3>The bone ecosystem and treatment resistance</h3>
-          <p>Bone is a dynamic ecosystem in which tumor cells interact with osteoblast-lineage cells, osteoclasts, mesenchymal stromal cells, and treatment. We develop spatial and multiscale models to investigate how these interactions influence tumor establishment, bone remodeling, relapse, and drug resistance.</p>
-          <p>This program includes multiple myeloma and bone-metastatic prostate cancer and is developed in close collaboration with experimental researchers.</p>
+          <h3>Stromal niches and residual disease</h3>
+          <p>Targeted and cytotoxic therapies often shrink tumors dramatically but rarely eliminate them: a subset of cells survives and eventually gives rise to resistant disease. With experimental and pathology collaborators, we combine spatial analysis of tumor tissue, experiments and agent-based models to show how proximity to stroma shapes that survival.</p>
+          <p>Peristromal niches shelter lung cancer cells from targeted therapy, an ecological rescue that buys time for evolutionary escape. In breast cancer, stroma-enhanced proliferation lets residual tumors recover between chemotherapy cycles, and in prostate cancer the reactivity of the stroma shapes how tumor cells evolve.</p>
+          <p class="programme-treatment"><strong>Treatment.</strong> Because stromal protection combines many signals, blocking any single one has limited value. Instead, residual cells can be targeted through their collateral sensitivities: in lung cancer, adaptive HER2 upregulation made them vulnerable to the antibody-drug conjugate T-DXd.</p>
         </div>
         <aside class="programme-evidence">
           <p class="eyebrow">Representative work</p>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/38503736/">The bone ecosystem and multiple myeloma relapse →</a>
+          <ul>
+            <li><a href="https://doi.org/10.1038/s41467-026-73454-w">Peristromal niches and targeted therapy responses in lung cancer</a> <span>Nature Communications, 2026</span></li>
+            <li><a href="https://doi.org/10.1158/0008-5472.CAN-23-0398">Stroma-driven proliferation and chemoresistance in breast cancer</a> <span>Cancer Research, 2023</span></li>
+            <li><a href="https://doi.org/10.3390/cancers16132405">Spatially restricted effects of microenvironment-mediated resistance</a> <span>Cancers, 2024</span></li>
+            <li><a href="https://doi.org/10.1038/s41559-020-1157-y">Stromal reactivity and prostate cancer evolution</a> <span>Nature Ecology &amp; Evolution, 2020</span></li>
+          </ul>
         </aside>
       </article>
 
-      <article class="research-programme">
-        <p class="programme-number">03</p>
+      <article class="research-programme with-icon" id="selection" style="--c: #E58A1F; --c-ink: #9E560A">
+        <div class="programme-mark">
+          {% include icons/cell-fusion.svg %}
+          <p class="programme-number">03</p>
+        </div>
         <div class="programme-copy">
-          <h3>Eco-evolutionary dynamics under treatment</h3>
-          <p>Treatment changes the selective environment experienced by a heterogeneous tumor. We investigate how pre-existing variation, environmentally mediated protection, phenotypic state, and acquired resistance jointly shape population dynamics during and after therapy.</p>
-          <p>These models provide a framework for asking when resistance is likely to emerge and how treatment timing, combinations, or interruptions alter evolutionary outcomes.</p>
+          <h3>Selection in an evolving ecosystem</h3>
+          <p>Mutations generate variation, but which variants succeed depends on selection, and selection depends on how a cell's traits shape its interactions with other tumor cells, with stromal cells and with the physical environment. We have used evolutionary game theory since our earliest work to study these interactions, from the emergence of glycolytic and invasive phenotypes to cooperation over angiogenesis, and with experimental collaborators we have measured the games that cancer cells actually play.</p>
+          <p>We also study where heritable variation comes from: spontaneous cell fusions that let tumor cells recombine, hypoxia that accelerates the tempo of evolution, and the adaptive state of a population, which determines whether new mutations help or harm.</p>
+          <p class="programme-treatment"><strong>Treatment.</strong> Therapy is a selective pressure like any other. Fibroblasts and targeted therapy can switch the evolutionary game a tumor plays; raising the mutation rate helps populations under therapy but not at baseline, which points to restricting mutational variability as a strategy; and drug combinations can be designed as evolutionary double binds.</p>
         </div>
         <aside class="programme-evidence">
           <p class="eyebrow">Representative work</p>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/40569384/">Adaptive state and the effects of mutations in evolving populations →</a>
+          <ul>
+            <li><a href="https://doi.org/10.1111/j.1365-2184.2008.00563.x">Evolutionary game theory and glycolysis in glioma progression</a> <span>Cell Proliferation, 2008</span></li>
+            <li><a href="https://doi.org/10.1038/s41559-018-0768-z">Fibroblasts and alectinib switch the evolutionary games of lung cancer</a> <span>Nature Ecology &amp; Evolution, 2019</span></li>
+            <li><a href="https://doi.org/10.1038/s41559-020-01367-y">Cell fusions as parasexual recombination in tumor cells</a> <span>Nature Ecology &amp; Evolution, 2021</span></li>
+            <li><a href="https://doi.org/10.1073/pnas.2427070122">The adaptive state and the impact of mutations</a> <span>PNAS, 2025</span></li>
+          </ul>
         </aside>
       </article>
     </div>
@@ -62,72 +107,27 @@ description: CancerEvo develops mathematical models of tumor ecology, evolution,
 
   <section class="research-methods" aria-labelledby="methods-heading">
     <div class="section-heading research-heading">
-      <p class="eyebrow">Modeling approaches</p>
-      <h2 id="methods-heading">The method follows the biological question</h2>
-      <p class="lede">We use complementary mathematical and computational approaches, selecting the level of abstraction and spatial detail needed for each system.</p>
+      <p class="eyebrow">How we work</p>
+      <h2 id="methods-heading">Integrated mathematical oncology</h2>
+      <p class="lede">The method follows the biological question, but four commitments run through all three themes.</p>
     </div>
 
     <div class="methods-grid">
       <article class="method-card">
+        <h3>Built with experimentalists and clinicians</h3>
+        <p>Our models are developed in long-standing collaborations with experimental, pathology and clinical colleagues, so that predictions are matched to experiments that can test them.</p>
+      </article>
+      <article class="method-card">
+        <h3>Spatial, hybrid models</h3>
+        <p>Individual cells interact with one another and with diffusing factors in realistic tissue. We build these models with the <a href="https://doi.org/10.1371/journal.pcbi.1007635">Hybrid Automata Library</a>, an open platform we co-developed.</p>
+      </article>
+      <article class="method-card">
         <h3>Evolutionary game theory</h3>
-        <p>Models of frequency-dependent interactions among cancer phenotypes and cells in the tumor microenvironment.</p>
+        <p>Frequency-dependent interactions among cancer phenotypes and the cells around them, from theoretical games to games measured in co-culture.</p>
       </article>
       <article class="method-card">
-        <h3>Spatial and agent-based models</h3>
-        <p>Explicit representations of individual cells, local interactions, spatial structure, and heterogeneous treatment exposure.</p>
-      </article>
-      <article class="method-card">
-        <h3>Dynamical and multiscale models</h3>
-        <p>Mechanistic models that connect processes operating from cellular interactions to population and tissue dynamics.</p>
-      </article>
-      <article class="method-card">
-        <h3>Model–experiment integration</h3>
-        <p>Iterative work with experimental and clinical collaborators to refine assumptions, test predictions, and interpret observations.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="selected-work" aria-labelledby="selected-work-heading">
-    <div class="section-heading research-heading">
-      <p class="eyebrow">Selected work</p>
-      <h2 id="selected-work-heading">Representative publications</h2>
-    </div>
-
-    <div class="publication-list">
-      <article class="publication-item">
-        <p class="publication-year">2026</p>
-        <div>
-          <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42215447/">Multifactorial sheltering in peristromal niches shapes in vivo responses of lung cancers to targeted therapies</a></h3>
-          <p class="publication-meta"><em>Nature Communications</em></p>
-          <p>Combines spatial analysis, mathematical modeling, and experiments to examine how stromal niches contribute to heterogeneous treatment response.</p>
-        </div>
-      </article>
-
-      <article class="publication-item">
-        <p class="publication-year">2025</p>
-        <div>
-          <h3><a href="https://pubmed.ncbi.nlm.nih.gov/40569384/">The adaptive state determines the impact of mutations on evolving populations</a></h3>
-          <p class="publication-meta"><em>Proceedings of the National Academy of Sciences</em></p>
-          <p>Investigates how the phenotypic state of a population changes the evolutionary consequences of new mutations.</p>
-        </div>
-      </article>
-
-      <article class="publication-item">
-        <p class="publication-year">2024</p>
-        <div>
-          <h3><a href="https://pubmed.ncbi.nlm.nih.gov/38503736/">The bone ecosystem facilitates multiple myeloma relapse and the evolution of heterogeneous drug resistant disease</a></h3>
-          <p class="publication-meta"><em>Nature Communications</em></p>
-          <p>Uses a biology-driven spatial model with experimental validation to study microenvironment-mediated protection and resistant relapse.</p>
-        </div>
-      </article>
-
-      <article class="publication-item">
-        <p class="publication-year">2024</p>
-        <div>
-          <h3><a href="https://pubmed.ncbi.nlm.nih.gov/38707992/">A seven-step guide to spatial, agent-based modelling of tumour evolution</a></h3>
-          <p class="publication-meta"><em>Evolutionary Applications</em></p>
-          <p>A practical framework for designing, implementing, and evaluating spatial agent-based models of tumor evolution.</p>
-        </div>
+        <h3>Calibrated, open and reproducible</h3>
+        <p>We fit models to longitudinal and spatial data, quantify what the data can and cannot determine, and release models and code. See our <a href="https://doi.org/10.1111/eva.13687">guide to spatial agent-based modelling of tumour evolution</a>.</p>
       </article>
     </div>
 

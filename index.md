@@ -4,56 +4,36 @@ title: Home
 description: The CancerEvo Group develops mathematical and computational models of cancer ecology, evolution, treatment response, and resistance.
 ---
 
-<section class="hero">
-  <div class="hero-grid">
-    <div>
-      <p class="eyebrow">Integrated mathematical oncology</p>
-      <h1>Mathematical models of cancer ecology and evolution</h1>
-      <p class="lede">We develop theory and computational models in collaboration with experimental and clinical researchers to study tumor heterogeneity, treatment response, and resistance.</p>
-      <div class="hero-actions">
-        <a class="button" href="{{ '/research' | relative_url }}">Explore our research</a>
-        <a class="button secondary" href="{{ '/team' | relative_url }}">Meet the team</a>
-      </div>
-    </div>
-    <figure class="hero-photo">
-      <div class="hero-photo-frame">
-        <img src="{{ '/assets/images/group-photo-1000.jpg' | relative_url }}" srcset="{{ '/assets/images/group-photo-1000.jpg' | relative_url }} 1x, {{ '/assets/images/group-photo-2000.jpg' | relative_url }} 2x" alt="Members of the CancerEvo Group together at Moffitt Cancer Center" width="4000" height="3000">
-      </div>
-      <figcaption>The CancerEvo Group at Moffitt Cancer Center</figcaption>
-    </figure>
-  </div>
+<section class="home-intro">
+  <h1 class="home-title">CancerEvo</h1>
+  <p class="home-sub">Cancer ecology &amp; evolution</p>
+  <p class="home-affil"><a href="{{ site.imo_url }}" target="_blank" rel="noopener noreferrer">Integrated Mathematical Oncology</a> &middot; <a href="{{ site.moffitt_url }}" target="_blank" rel="noopener noreferrer">Moffitt Cancer Center</a></p>
 </section>
 
-<section class="section tinted">
-  <div class="container">
-    <div class="section-heading">
-      <p class="eyebrow">Research approach</p>
-      <h2>Theory, biological context, and collaboration</h2>
-      <p class="lede">Our work combines mathematical methods, ecological and evolutionary thinking, and sustained interaction with experimental and clinical researchers.</p>
-    </div>
-    <div class="pillar-grid">
-      <article class="pillar-card" data-number="01">
-        <h3>Mathematical modeling</h3>
-        <p>We use models to formalize biological hypotheses, identify important mechanisms, and generate predictions that can be tested against experimental and clinical data.</p>
-      </article>
-      <article class="pillar-card" data-number="02">
-        <h3>Cancer ecology and evolution</h3>
-        <p>We study how interactions among cancer cells, normal cells, the microenvironment, and treatment shape tumor dynamics and selection.</p>
-      </article>
-      <article class="pillar-card" data-number="03">
-        <h3>Collaborative research</h3>
-        <p>We develop research questions and models in close interaction with experimental biologists and clinical investigators.</p>
-      </article>
-    </div>
-  </div>
-</section>
 
-<section class="section">
-  <div class="container statement">
-    <p class="eyebrow">Our approach</p>
-    <div>
-      <blockquote>Models become most useful when they are developed in close dialogue with experiments and clinically meaningful questions.</blockquote>
-      <p class="spaced-link"><a class="text-link" href="{{ '/about' | relative_url }}">Learn about the group and its collaborations →</a></p>
-    </div>
-  </div>
-</section>
+<nav class="icon-grid" aria-label="Site sections">
+  <a class="tile" href="{{ '/research' | relative_url }}" style="--c: #D9483B; --c-ink: #B8362B">
+    {% include icons/bone-ecosystem.svg %}
+    <span>Research</span>
+  </a>
+  <a class="tile" href="{{ '/publications' | relative_url }}" style="--c: #E58A1F; --c-ink: #9E560A">
+    {% include icons/cell-fusion.svg %}
+    <span>Publications</span>
+  </a>
+  <a class="tile" href="{{ '/team' | relative_url }}" style="--c: #B0418F; --c-ink: #B0418F">
+    {% include icons/stromal-niche.svg %}
+    <span>Team</span>
+  </a>
+  <a class="tile" href="{{ '/models' | relative_url }}" style="--c: #2E9655; --c-ink: #23794A">
+    {% include icons/hybrid-model.svg %}
+    <span>Models &amp; Code</span>
+  </a>
+  <a class="tile" href="{{ '/outreach' | relative_url }}" style="--c: #1592A6; --c-ink: #0F7180">
+    {% include icons/evolutionary-game.svg %}
+    <span>Outreach</span>
+  </a>
+  <a class="tile" href="{{ '/about' | relative_url }}" style="--c: #2F5AB4; --c-ink: #2F5AB4">
+    {% include icons/evolutionary-rescue.svg %}
+    <span>About</span>
+  </a>
+</nav>

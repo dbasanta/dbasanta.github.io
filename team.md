@@ -40,9 +40,9 @@ description: Meet the interdisciplinary CancerEvo research group at Moffitt Canc
       </article>
 
       <article class="person-card">
-        <img src="{{ '/assets/images/team/normalized/mark-froid_normalized.jpg' | relative_url }}" srcset="{{ '/assets/images/team/normalized/mark-froid_normalized.jpg' | relative_url }} 1x, {{ '/assets/images/team/normalized/mark-froid_normalized_large.jpg' | relative_url }} 1.47x" alt="Portrait of Mark Froid" class="person-photo" width="400" height="400">
+        <img src="{{ '/assets/images/team/normalized/matthew-froid_normalized.jpg' | relative_url }}" srcset="{{ '/assets/images/team/normalized/matthew-froid_normalized.jpg' | relative_url }} 1x, {{ '/assets/images/team/normalized/matthew-froid_normalized_large.jpg' | relative_url }} 1.47x" alt="Portrait of Matthew Froid" class="person-photo" width="400" height="400">
         <p class="role">PhD Student</p>
-        <h3>Mark Froid</h3>
+        <h3>Matthew Froid</h3>
         <p>Models multiple myeloma, the immune system, and response to teclistamab treatment.</p>
       </article>
 

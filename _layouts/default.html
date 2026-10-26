@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#081b2c">
     {% seo %}
+    {% if site.preview %}<meta name="robots" content="noindex, nofollow">{% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
 </head>
 <body class="page-{{ page.title | slugify }}">
     <a class="skip-link" href="#main-content">Skip to main content</a>
+    {% include icons/defs.svg %}
+    {% if site.preview %}<div class="preview-banner">Design preview &middot; the live site is <a href="https://cancerevo.org">cancerevo.org</a></div>{% endif %}
 
     <header class="site-header">
         <nav class="container nav-shell" aria-label="Primary navigation">
             <a href="{{ '/' | relative_url }}" class="logo" aria-label="CancerEvo home">
                 <img src="{{ '/assets/images/cancerevo-logo-nav.svg' | relative_url }}" alt="CancerEvo" class="nav-logo" width="400" height="120">
             </a>
-            <ul class="nav-links">
+            <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav" hidden></button>
+            <ul class="nav-links" id="site-nav">
                 {% for item in site.navigation %}
                 {% assign item_url_slash = item.url | append: '/' %}
                 <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url or page.url == item_url_slash %}class="active" aria-current="page"{% endif %}>{{ item.title }}</a></li>
@@ -24,6 +28,18 @@
             </ul>
         </nav>
     </header>
+    <script>
+        // Phones: collapse the navigation behind the menu button. Without JavaScript the links stay visible.
+        (function () {
+            var button = document.querySelector('.nav-toggle'), links = document.getElementById('site-nav');
+            if (!button || !links) return;
+            button.hidden = false;
+            document.documentElement.classList.add('has-nav-toggle');
+            function set(open) { button.setAttribute('aria-expanded', String(open)); links.classList.toggle('is-open', open); }
+            button.addEventListener('click', function () { set(button.getAttribute('aria-expanded') !== 'true'); });
+            document.addEventListener('keydown', function (e) { if (e.key === 'Escape') set(false); });
+        })();
+    </script>
 
     <main id="main-content" class="site-main">
         {{ content }}
@@ -31,8 +47,8 @@
 
     <aside class="institution-band" aria-label="Institutional affiliation">
         <div class="container institution-inner">
-            <p>Based in the Integrated Mathematical Oncology department</p>
-            <a href="https://moffitt.org" target="_blank" rel="noopener noreferrer" aria-label="Visit Moffitt Cancer Center">
+            <p>Based in the <a href="{{ site.imo_url }}" target="_blank" rel="noopener noreferrer">Integrated Mathematical Oncology</a> department</p>
+            <a href="{{ site.moffitt_url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit Moffitt Cancer Center">
                 <img src="{{ '/assets/images/moffitt-logo.png' | relative_url }}" alt="Moffitt Cancer Center" class="moffitt-logo" width="262" height="74">
             </a>
         </div>
